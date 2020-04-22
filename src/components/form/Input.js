@@ -21,7 +21,7 @@ const Input = ({ name, type , placeholder, value, onChange, onBlur, text}) => {
     )
 }
 
-Input.PropTypes = {
+Input.propTypes = {
     name: PropTypes.string.isRequired,
     type: PropTypes.string.isRequired,
     placeholder: PropTypes.string.isRequired,
