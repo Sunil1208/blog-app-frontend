@@ -12,7 +12,7 @@ import {
     Alert
 } from 'react-bootstrap';
 
-consst Login = ({ message, loading, user, onChange, onBlur, onSubmit}) => {
+const Login = ({ message, loading, user, onChange, onBlur, onSubmit}) => {
     const {email, password, errors} = user;
     return (
         <Container>

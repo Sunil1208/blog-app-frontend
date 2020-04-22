@@ -1,11 +1,11 @@
 import React from 'react';
-import Input from '../src/components/form/Input'
+import Login from '../src/components/auth/Login'
 
 function App() {
   return (
     <div>
     Hello there
-    <Input/>
+    <Login/>
     </div>
   );
 }
