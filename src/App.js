@@ -10,7 +10,7 @@ import LoginPage from "./containers/auth/LoginPage";
 import SignUpPage from "./containers/auth/SignUpPage";
 
 import ProgressBar from "./containers/layout/ProgressBar";
-import Navbar from "./containers/layout/Navbar";
+import Navbar from "./containers/layout/NavBar";
 import Landing from "./components/layout/Landing";
 import BlogPage from "./containers/BlogPage";
 import PrivateRoute from "./utils/PrivateRoute";
@@ -56,6 +56,7 @@ const App = () => {
                <Route path="/blog/:author" component={BlogPage} />
                <Redirect from="*" to="/" />
             </Switch>
+            
          </BrowserRouter>
       </Provider>
    );

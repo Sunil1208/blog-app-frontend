@@ -5,7 +5,9 @@ import getFormattedDate from "../../utils/getFormattedDate";
 import "./post.scss";
 
 const Post = ({ post }) => {
+   
    const postDate = getFormattedDate(post.date);
+   console.log(postDate)
    return (
       <Card className="deckStyle" style={{ border: "none" }}>
          <Card.Body className="postCover">

@@ -12,7 +12,7 @@ const Input = ({ name, type , placeholder, value, onChange, onBlur, text}) => {
                 placeholder = {placeholder}
                 value = {value}
                 onChange = {onChange}
-                onBlue = {onBlur}
+                onBlur = {onBlur}
                 isInvalid = {text.error? true : false}/>
                 <Form.Control.Feedback type = "invalid">
                     {text.error}

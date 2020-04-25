@@ -1,6 +1,7 @@
 const getFormattedDate = date => {
-    return new Date(Date.parse(date).toLocaleString("en-US"),
-    {dateStyle:"long"})
-}
-
-export default getFormattedDate;
+    return new Date(Date.parse(date)).toLocaleDateString("en-US", {
+       dateStyle: "long"
+    });
+ };
+ 
+ export default getFormattedDate;
